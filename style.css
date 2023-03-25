@@ -1,14 +1,18 @@
 #div-pai-do-jogo {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: baseline;
     margin-top: 100px;
 }
 
-#dino {
+body {
+    background-color: gray;
+}
+
+#dino, #explode {
     position: absolute;
     top: 75px;
-    left: 190px;
+    left: 30px;
 }
 
 .ground {
@@ -17,6 +21,6 @@
 }
 
 h1 {
-    text-align: center;
+    text-align: start;
     display: none;
 }

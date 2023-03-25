@@ -53,6 +53,10 @@ function bateu() {
     h1.style = "display: block;"
 
     clearInterval(id_do_intervalo)
+
+    const dino = document.getElementById("dino")
+    dino.id = "explode"
+    dino.src = "media/explode.jpeg"
 }
 
 document.addEventListener('keydown', (evt) => {
